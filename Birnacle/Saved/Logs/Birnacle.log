@@ -1,4 +1,4 @@
-﻿Log file open, 08/31/18 11:41:03
+﻿Log file open, 10/12/18 10:01:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Birnacle
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.283386
+LogStats: Stats thread started at 0.326988
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -93,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.128s to configure plugins.
+LogStreaming: Display: Took  0.126s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -147,239 +147,185 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.000s to delete old logs.
+LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.08.31-16.41.03:655][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.31-16.41.03:655][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.08.31-16.41.03:670][  0]LogHAL: Display: Platform has ~ 16 GB [17092042752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2018.08.31-16.41.03:670][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2018.08.31-16.41.03:670][  0]LogInit: Going up to parent DeviceProfile []
-[2018.08.31-16.41.03:670][  0]LogInit: Computer: GDACAAD18373
-[2018.08.31-16.41.03:670][  0]LogInit: User: gdaalumno
-[2018.08.31-16.41.03:670][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.08.31-16.41.03:670][  0]LogInit: High frequency timer resolution =3.410068 MHz
-[2018.08.31-16.41.03:671][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.08.31-16.41.03:671][  0]LogMemory: Platform Memory Stats for Windows
-[2018.08.31-16.41.03:671][  0]LogMemory: Process Physical Memory: 100.50 MB used, 100.50 MB peak
-[2018.08.31-16.41.03:671][  0]LogMemory: Process Virtual Memory: 91.56 MB used, 91.56 MB peak
-[2018.08.31-16.41.03:671][  0]LogMemory: Physical Memory: 4954.52 MB used,  11345.72 MB free, 16300.24 MB total
-[2018.08.31-16.41.03:671][  0]LogMemory: Virtual Memory: 548.01 MB used,  11345.72 MB free, 134217728.00 MB total
-[2018.08.31-16.41.03:694][  0]LogInit: Using OS detected language (es-MX).
-[2018.08.31-16.41.03:694][  0]LogInit: Using OS detected locale (es-MX).
-[2018.08.31-16.41.03:695][  0]LogTextLocalizationManager: No specific localization for 'es-MX' exists, so the 'es' localization will be used.
-[2018.08.31-16.41.04:073][  0]LogStreaming: Display: Took  0.380s to InitEngineTextLocalization.
-[2018.08.31-16.41.04:073][  0]LogInit: Setting process to per monitor DPI aware
-[2018.08.31-16.41.04:155][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2018.08.31-16.41.04:155][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2018.08.31-16.41.04:375][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.31-16.41.04:375][  0]LogD3D11RHI: D3D11 adapters:
-[2018.08.31-16.41.04:425][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
-[2018.08.31-16.41.04:425][  0]LogD3D11RHI:       4053/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.08.31-16.41.04:428][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.08.31-16.41.04:428][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.08.31-16.41.04:428][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.08.31-16.41.04:434][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.08.31-16.41.04:434][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
-[2018.08.31-16.41.04:434][  0]LogWindows: EnumDisplayDevices:
-[2018.08.31-16.41.04:434][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
-[2018.08.31-16.41.04:434][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:1)
-[2018.08.31-16.41.04:434][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
-[2018.08.31-16.41.04:434][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
-[2018.08.31-16.41.04:434][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2018.08.31-16.41.04:434][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
-[2018.08.31-16.41.04:434][  0]LogD3D11RHI:   Driver Version: 391.89 (internal:23.21.13.9189, unified:391.89)
-[2018.08.31-16.41.04:434][  0]LogD3D11RHI:      Driver Date: 7-19-2018
-[2018.08.31-16.41.04:435][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
-[2018.08.31-16.41.04:469][  0]LogD3D11RHI: Async texture creation enabled
-[2018.08.31-16.41.04:490][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.08.31-16.41.04:535][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Intermediate/Shaders/WorkingDirectory/11136/).
-[2018.08.31-16.41.04:535][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gdaalumno/AppData/Local/Temp/UnrealShaderWorkingDir/710FFB624FCBFF815D36F6894C7F827E/'.
-[2018.08.31-16.41.04:957][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.08.31-16.41.04:972][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.08.31-16.41.04:985][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.08.31-16.41.04:998][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.08.31-16.41.05:015][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.08.31-16.41.05:028][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.08.31-16.41.05:041][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.08.31-16.41.05:055][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.08.31-16.41.05:061][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:151][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.08.31-16.41.05:153][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.08.31-16.41.05:215][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.31-16.41.05:215][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.08.31-16.41.05:272][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.31-16.41.05:272][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.08.31-16.41.05:291][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.08.31-16.41.05:309][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.08.31-16.41.05:322][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.08.31-16.41.05:338][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.08.31-16.41.05:349][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2018.08.31-16.41.05:349][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.08.31-16.41.05:406][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2018.08.31-16.41.05:406][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2018.08.31-16.41.05:406][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.08.31-16.41.06:169][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.08.31-16.41.06:246][  0]LogDerivedDataCache: Loaded boot cache 0.08s 71MB C:/Users/gdaalumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.31-16.41.06:246][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gdaalumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2018.08.31-16.41.06:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.08.31-16.41.06:246][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.08.31-16.41.06:246][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.08.31-16.41.06:246][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.08.31-16.41.06:259][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.08.31-16.41.06:271][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gdaalumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.08.31-16.41.06:271][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2018.08.31-16.41.06:271][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2018.08.31-16.41.06:319][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.08.31-16.41.06:321][  0]LogSlate: Using FreeType 2.6.0
-[2018.08.31-16.41.06:322][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.08.31-16.41.06:439][  0]LogAssetRegistry: FAssetRegistry took 0.0285 seconds to start up
-[2018.08.31-16.41.06:810][  0]LogInit: Selected Device Profile: [Windows]
-[2018.08.31-16.41.06:984][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.08.31-16.41.06:988][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.08.31-16.41.06:988][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2018.08.31-16.41.06:988][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.08.31-16.41.06:988][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.08.31-16.41.07:015][  0]LogNetVersion: Birnacle 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3591222429)
-[2018.08.31-16.41.07:679][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.099883 seconds
-[2018.08.31-16.41.07:686][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2018.08.31-16.41.07:686][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
-[2018.08.31-16.41.07:686][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.08.31-16.41.08:679][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.08.31-16.41.08:692][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.08.31-16.41.08:918][  0]SourceControl: El control de código fuente está desactivado
-[2018.08.31-16.41.09:847][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.08.31-16.41.09:920][  0]LogOcInput: OculusInput pre-init called
-[2018.08.31-16.41.09:997][  0]LogEngine: Initializing Engine...
-[2018.08.31-16.41.09:998][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.08.31-16.41.09:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.31-16.41.09:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.31-16.41.09:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.31-16.41.09:999][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.31-16.41.10:262][  0]LogInit: Initializing FReadOnlyCVARCache
-[2018.08.31-16.41.10:289][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.08.31-16.41.10:300][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.08.31-16.41.10:344][  0]LogInit: FAudioDevice initialized.
-[2018.08.31-16.41.10:344][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2018.08.31-16.41.10:461][  0]LogDerivedDataCache: Saved boot cache 0.12s 71MB C:/Users/gdaalumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2018.08.31-16.41.10:470][  0]LogInit: Texture streaming: Enabled
-[2018.08.31-16.41.10:499][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.08.31-16.41.10:512][  0]LogInit: Transaction tracking system initialized
-[2018.08.31-16.41.10:532][  0]BlueprintLog: New page: Cargar el editor
-[2018.08.31-16.41.10:613][  0]LocalizationService: Localization service is disabled
-[2018.08.31-16.41.10:966][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.08.31-16.41.10:966][  0]LogCook: Display: Mobile HDR setting 1
-[2018.08.31-16.41.10:966][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.08.31-16.41.10:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2018.08.31-16.41.10:966][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.08.31-16.41.10:967][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2018.08.31-16.41.10:967][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.08.31-16.41.11:097][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/' took 0.02s
-[2018.08.31-16.41.11:097][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.08.31-16.41.11:097][  0]LightingResults: New page: Diseñar la iluminación
-[2018.08.31-16.41.11:100][  0]MapCheck: New page: Revisión del mapa
-[2018.08.31-16.41.11:100][  0]LightingResults: New page: Diseñar la iluminación
-[2018.08.31-16.41.11:510][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
-[2018.08.31-16.41.11:520][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.08.31-16.41.11:549][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.08.31-16.41.11:625][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 76.454ms to complete.
-[2018.08.31-16.41.11:625][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.529
-[2018.08.31-16.41.11:741][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.08.31-16.41.11:742][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.08.31-16.41.11:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-16.41.11:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-16.41.11:859][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-16.41.11:868][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2018.08.31-16.41.11:876][  0]LogCollectionManager: Loaded 0 collections in 0.001822 seconds
-[2018.08.31-16.41.11:926][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Saved/Collections/' took 0.01s
-[2018.08.31-16.41.11:926][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/Developers/gdaalumno/Collections/' took 0.01s
-[2018.08.31-16.41.11:926][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/Collections/' took 0.01s
-[2018.08.31-16.41.11:926][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.08.31-16.41.11:937][  0]LogContentBrowser: Native class hierarchy populated in 0.0107 seconds. Added 2572 classes and 603 folders.
-[2018.08.31-16.41.11:943][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.31-16.41.11:996][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.08.31-16.41.12:002][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2018.08.31-16.41.12:039][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.31-16.41.12:055][  0]LogSlate: Window 'Tutoriales' being destroyed
-[2018.08.31-16.41.12:088][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 0 classes and 0 folders.
-[2018.08.31-16.41.12:088][  0]LogLoad: (Engine Initialization) Total time: 10.09 seconds
-[2018.08.31-16.41.12:088][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.08.31-16.41.12:121][  0]LogContentStreaming: Texture pool size now 3000 MB
-[2018.08.31-16.41.12:122][  0]LogSlate: Took 0.000203 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.08.31-16.41.12:124][  0]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.08.31-16.41.12:129][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.08.31-16.41.12:220][  0]LogSlate: Took 0.000252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2018.08.31-16.41.12:251][  1]LogAssetRegistry: Asset discovery search completed in 5.8339 seconds
-[2018.08.31-16.41.12:253][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.08.31-16.41.12:253][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2018.08.31-16.41.12:269][  2]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
-[2018.08.31-16.41.15:142][323]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.31-16.41.22:057][118]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.20/Engine/Content: 'C:/Program Files/Epic Games/UE_4.20/Engine/Content' is outside repository
-[2018.08.31-16.41.22:168][118]LogPackageName: Error: Illegal call to DoesPackageExist: '../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Birnacle.uproject' is not a standard unreal filename or a long path name. Reason: La ruta no debe tener menos de 4 caracteres de longitud.
-[2018.08.31-16.41.22:849][118]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.680 s
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: === Handled ensure: ===
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: 
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: Ensure condition failed: false [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\CoreUObject\Private\Misc\PackageName.cpp] [Line: 822]
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: Illegal call to DoesPackageExist: '../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Birnacle.uproject' is not a standard unreal filename or a long path name. Reason: La ruta no debe tener menos de 4 caracteres de longitud.
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: Stack: 
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffafce17136 UE4Editor-Core.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffafcb50c82 UE4Editor-Core.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffafcb6b346 UE4Editor-Core.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffafe494787 UE4Editor-CoreUObject.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffb0a7981a5 UE4Editor-SourceControl.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffb0a798339 UE4Editor-SourceControl.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffaddfa4e8d UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffaddf5804e UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffaddf575df UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffaddf71f71 UE4Editor-SourceControlWindows.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffad556f32c UE4Editor-GitSourceControl.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffad5574e51 UE4Editor-GitSourceControl.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffb0a79e737 UE4Editor-SourceControl.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffae2177a4e UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffae2a6f0d6 UE4Editor-UnrealEd.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ff6abcd5cbd UE4Editor.exe!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ff6abce5b3c UE4Editor.exe!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ff6abce5bba UE4Editor.exe!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ff6abcf3dac UE4Editor.exe!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ff6abcf5aaa UE4Editor.exe!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffb399b1fe4 KERNEL32.DLL!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: [Callstack] 0x00007ffb3bafefc1 ntdll.dll!UnknownFunction []
-[2018.08.31-16.41.22:849][118]LogOutputDevice: Error: 
-[2018.08.31-16.41.22:853][118]LogStats:                SubmitErrorReport -  0.000 s
-[2018.08.31-16.41.23:455][118]LogStats:                    SendNewReport -  0.602 s
-[2018.08.31-16.41.23:455][118]LogStats:             FDebug::EnsureFailed -  1.286 s
-[2018.08.31-16.41.23:482][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.31-16.41.31:882][118]LogSlate: Window 'Enviar archivos' being destroyed
-[2018.08.31-16.41.31:902][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.31-16.41.32:154][118]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2018.08.31-16.41.32:290][118]LogSourceControl: commit successful: [master 8eb609e] Project
-[2018.08.31-16.41.32:400][118]SourceControl: [master 8eb609e] Project
-[2018.08.31-16.41.32:400][118]SourceControl:  Committer: Alumno GDA <gdaalumno@svcs.itesm.mx>
-[2018.08.31-16.41.32:400][118]SourceControl: Your name and email address were configured automatically based
-[2018.08.31-16.41.32:400][118]SourceControl: on your username and hostname. Please check that they are accurate.
-[2018.08.31-16.41.32:400][118]SourceControl: You can suppress this message by setting them explicitly:
-[2018.08.31-16.41.32:400][118]SourceControl:     git config --global user.name "Your Name"
-[2018.08.31-16.41.32:400][118]SourceControl:     git config --global user.email you@example.com
-[2018.08.31-16.41.32:400][118]SourceControl: After doing this, you may fix the identity used for this commit with:
-[2018.08.31-16.41.32:400][118]SourceControl:     git commit --amend --reset-author
-[2018.08.31-16.41.32:400][118]SourceControl:  2 files changed, 6 insertions(+)
-[2018.08.31-16.41.32:400][118]SourceControl:  create mode 100644 Birnacle/Birnacle.uproject
-[2018.08.31-16.41.32:400][118]SourceControl:  create mode 100644 Birnacle/Content/SideScrollerBP/SideScrollerOverview.uasset
-[2018.08.31-16.41.32:413][118]SourceControl: Commited [master 8eb609e] Project.
+[2018.10.12-15.01.06:661][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.12-15.01.06:661][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.10.12-15.01.06:680][  0]LogHAL: Display: Platform has ~ 16 GB [17092042752 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2018.10.12-15.01.06:680][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2018.10.12-15.01.06:680][  0]LogInit: Going up to parent DeviceProfile []
+[2018.10.12-15.01.06:681][  0]LogInit: Computer: GDACAAD18373
+[2018.10.12-15.01.06:681][  0]LogInit: User: gdaalumno
+[2018.10.12-15.01.06:681][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.10.12-15.01.06:681][  0]LogInit: High frequency timer resolution =3.410076 MHz
+[2018.10.12-15.01.06:681][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.10.12-15.01.06:681][  0]LogMemory: Platform Memory Stats for Windows
+[2018.10.12-15.01.06:681][  0]LogMemory: Process Physical Memory: 100.26 MB used, 100.26 MB peak
+[2018.10.12-15.01.06:681][  0]LogMemory: Process Virtual Memory: 91.29 MB used, 91.29 MB peak
+[2018.10.12-15.01.06:681][  0]LogMemory: Physical Memory: 4041.83 MB used,  12258.41 MB free, 16300.24 MB total
+[2018.10.12-15.01.06:681][  0]LogMemory: Virtual Memory: 548.01 MB used,  12258.41 MB free, 134217728.00 MB total
+[2018.10.12-15.01.06:697][  0]LogInit: Using OS detected language (es-MX).
+[2018.10.12-15.01.06:697][  0]LogInit: Using OS detected locale (es-MX).
+[2018.10.12-15.01.06:698][  0]LogTextLocalizationManager: No specific localization for 'es-MX' exists, so the 'es' localization will be used.
+[2018.10.12-15.01.07:008][  0]LogStreaming: Display: Took  0.310s to InitEngineTextLocalization.
+[2018.10.12-15.01.07:008][  0]LogInit: Setting process to per monitor DPI aware
+[2018.10.12-15.01.07:061][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2018.10.12-15.01.07:061][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2018.10.12-15.01.07:290][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.12-15.01.07:290][  0]LogD3D11RHI: D3D11 adapters:
+[2018.10.12-15.01.07:335][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2018.10.12-15.01.07:335][  0]LogD3D11RHI:       4053/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.10.12-15.01.07:338][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.10.12-15.01.07:338][  0]LogD3D11RHI:       0/0/8150 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.10.12-15.01.07:338][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.10.12-15.01.07:343][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.10.12-15.01.07:343][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2018.10.12-15.01.07:343][  0]LogWindows: EnumDisplayDevices:
+[2018.10.12-15.01.07:344][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2018.10.12-15.01.07:344][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:1)
+[2018.10.12-15.01.07:344][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.10.12-15.01.07:344][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.10.12-15.01.07:344][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.10.12-15.01.07:344][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2018.10.12-15.01.07:344][  0]LogD3D11RHI:   Driver Version: 391.89 (internal:23.21.13.9189, unified:391.89)
+[2018.10.12-15.01.07:344][  0]LogD3D11RHI:      Driver Date: 7-19-2018
+[2018.10.12-15.01.07:344][  0]LogRHI: Texture pool is 2837 MB (70% of 4053 MB)
+[2018.10.12-15.01.07:377][  0]LogD3D11RHI: Async texture creation enabled
+[2018.10.12-15.01.07:398][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.10.12-15.01.07:444][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Intermediate/Shaders/WorkingDirectory/952/).
+[2018.10.12-15.01.07:444][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gdaalumno/AppData/Local/Temp/UnrealShaderWorkingDir/E4E8F8C34B971C9F92985D8016CE0477/'.
+[2018.10.12-15.01.07:738][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.10.12-15.01.07:750][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.10.12-15.01.07:763][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.10.12-15.01.07:776][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.10.12-15.01.07:788][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.10.12-15.01.07:801][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.10.12-15.01.07:813][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.10.12-15.01.07:826][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.10.12-15.01.07:832][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.10.12-15.01.07:944][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.10.12-15.01.08:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.12-15.01.08:024][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.10.12-15.01.08:071][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.12-15.01.08:071][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.10.12-15.01.08:084][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.10.12-15.01.08:096][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.10.12-15.01.08:129][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.10.12-15.01.08:158][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.10.12-15.01.08:171][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2018.10.12-15.01.08:171][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.10.12-15.01.08:235][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2018.10.12-15.01.08:235][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2018.10.12-15.01.08:235][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.10.12-15.01.09:040][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.10.12-15.01.09:100][  0]LogDerivedDataCache: Loaded boot cache 0.06s 71MB C:/Users/gdaalumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.12-15.01.09:100][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gdaalumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2018.10.12-15.01.09:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.10.12-15.01.09:100][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.10.12-15.01.09:100][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.10.12-15.01.09:100][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.10.12-15.01.09:113][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.10.12-15.01.09:125][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gdaalumno/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.10.12-15.01.09:125][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2018.10.12-15.01.09:125][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2018.10.12-15.01.09:164][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.10.12-15.01.09:165][  0]LogSlate: Using FreeType 2.6.0
+[2018.10.12-15.01.09:166][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.10.12-15.01.09:268][  0]LogAssetRegistry: FAssetRegistry took 0.0333 seconds to start up
+[2018.10.12-15.01.09:635][  0]LogInit: Selected Device Profile: [Windows]
+[2018.10.12-15.01.09:706][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.10.12-15.01.09:709][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.10.12-15.01.09:709][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2018.10.12-15.01.09:709][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.10.12-15.01.09:709][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.10.12-15.01.09:817][  0]LogNetVersion: Birnacle 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 3591222429)
+[2018.10.12-15.01.10:457][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.103359 seconds
+[2018.10.12-15.01.10:464][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2018.10.12-15.01.10:464][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2018.10.12-15.01.10:464][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.10.12-15.01.11:432][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.10.12-15.01.11:446][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.10.12-15.01.11:682][  0]SourceControl: El control de código fuente está desactivado
+[2018.10.12-15.01.12:518][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.10.12-15.01.12:574][  0]LogOcInput: OculusInput pre-init called
+[2018.10.12-15.01.12:643][  0]LogEngine: Initializing Engine...
+[2018.10.12-15.01.12:644][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.10.12-15.01.12:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.12-15.01.12:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.12-15.01.12:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.12-15.01.12:645][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.12-15.01.12:890][  0]LogInit: Initializing FReadOnlyCVARCache
+[2018.10.12-15.01.12:908][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.10.12-15.01.12:932][  0]LogInit: XAudio2 using 'Altavoces (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.10.12-15.01.12:998][  0]LogInit: FAudioDevice initialized.
+[2018.10.12-15.01.12:999][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2018.10.12-15.01.13:101][  0]LogDerivedDataCache: Saved boot cache 0.10s 71MB C:/Users/gdaalumno/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2018.10.12-15.01.13:102][  0]LogInit: Texture streaming: Enabled
+[2018.10.12-15.01.13:122][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.10.12-15.01.13:138][  0]LogInit: Transaction tracking system initialized
+[2018.10.12-15.01.13:157][  0]BlueprintLog: New page: Cargar el editor
+[2018.10.12-15.01.13:241][  0]LocalizationService: Localization service is disabled
+[2018.10.12-15.01.13:548][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.10.12-15.01.13:548][  0]LogCook: Display: Mobile HDR setting 1
+[2018.10.12-15.01.13:548][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.10.12-15.01.13:548][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2018.10.12-15.01.13:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.10.12-15.01.13:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2018.10.12-15.01.13:549][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.10.12-15.01.13:663][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/' took 0.02s
+[2018.10.12-15.01.13:663][  0]Cmd: MAP LOAD FILE="../../../../../../Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/SideScrollerBP/Maps/SideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.10.12-15.01.13:667][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.12-15.01.13:670][  0]MapCheck: New page: Revisión del mapa
+[2018.10.12-15.01.13:670][  0]LightingResults: New page: Diseñar la iluminación
+[2018.10.12-15.01.14:399][  0]LogAIModule: Creating AISystem for world SideScrollerExampleMap
+[2018.10.12-15.01.14:427][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.10.12-15.01.14:465][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.10.12-15.01.14:544][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 79.166ms to complete.
+[2018.10.12-15.01.14:544][  0]LogFileHelpers: Loading map 'SideScrollerExampleMap' took 0.880
+[2018.10.12-15.01.14:693][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.12-15.01.14:694][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.10.12-15.01.14:809][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.12-15.01.14:822][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.12-15.01.14:838][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.12-15.01.14:852][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2018.10.12-15.01.14:869][  0]LogCollectionManager: Loaded 0 collections in 0.001679 seconds
+[2018.10.12-15.01.14:934][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Saved/Collections/' took 0.01s
+[2018.10.12-15.01.14:934][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/Developers/gdaalumno/Collections/' took 0.01s
+[2018.10.12-15.01.14:934][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gdaalumno/Documents/ProyectoIntegrador/Birnacle/Content/Collections/' took 0.01s
+[2018.10.12-15.01.14:934][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.10.12-15.01.14:948][  0]LogContentBrowser: Native class hierarchy populated in 0.0125 seconds. Added 2572 classes and 603 folders.
+[2018.10.12-15.01.14:958][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.12-15.01.15:087][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.12-15.01.15:110][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.10.12-15.01.15:202][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.10.12-15.01.15:202][  0]LogLoad: (Engine Initialization) Total time: 10.37 seconds
+[2018.10.12-15.01.15:202][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.10.12-15.01.15:239][  0]LogContentStreaming: Texture pool size now 3000 MB
+[2018.10.12-15.01.15:242][  0]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.10.12-15.01.15:244][  0]LogSlate: Took 0.000174 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.10.12-15.01.15:257][  0]LogSlate: Took 0.006384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.10.12-15.01.15:415][  0]LogSlate: Took 0.002126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2018.10.12-15.01.15:442][  1]LogRenderer: Reallocating scene render targets to support 804x360 Format 10 NumSamples 1 (Frame:1).
+[2018.10.12-15.01.15:454][  1]LogAssetRegistry: Asset discovery search completed in 6.2002 seconds
+[2018.10.12-15.01.15:456][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.10.12-15.01.15:457][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2018.10.12-15.01.21:400][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
